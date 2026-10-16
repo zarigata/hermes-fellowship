@@ -1,0 +1,65 @@
+{
+  "ollama-qwen-lean": {
+    "provider": "ollama",
+    "base_url": "http://localhost:11434",
+    "model": "qwen3.8:27b",
+    "context": 32768,
+    "output": 4096,
+    "concurrency": 1,
+    "plugins": "lean"
+  },
+  "ollama-qwen-balanced": {
+    "provider": "ollama",
+    "base_url": "http://localhost:11434",
+    "model": "qwen3.8:27b",
+    "context": 65536,
+    "output": 8192,
+    "concurrency": 1,
+    "plugins": "balanced"
+  },
+  "lmstudio-local": {
+    "provider": "lmstudio",
+    "base_url": "http://localhost:1234",
+    "model": null,
+    "context": 32768,
+    "output": 4096,
+    "concurrency": 1,
+    "plugins": "lean"
+  },
+  "glm-local": {
+    "provider": "custom",
+    "base_url": "http://localhost:1234",
+    "model": null,
+    "context": 32768,
+    "output": 4096,
+    "concurrency": 1,
+    "plugins": "lean"
+  },
+  "zai-glm": {
+    "provider": "zai",
+    "base_url": "https://api.z.ai/api/anthropic",
+    "model": "glm-5.3",
+    "context": 131072,
+    "output": 8192,
+    "concurrency": 2,
+    "plugins": "balanced"
+  },
+  "zai-glm-fast": {
+    "provider": "zai",
+    "base_url": "https://api.z.ai/api/anthropic",
+    "model": "glm-5.3-flash",
+    "context": 65536,
+    "output": 4096,
+    "concurrency": 1,
+    "plugins": "lean"
+  },
+  "custom-anthropic": {
+    "provider": "custom",
+    "base_url": null,
+    "model": null,
+    "context": 32768,
+    "output": 4096,
+    "concurrency": 1,
+    "plugins": "lean"
+  }
+}

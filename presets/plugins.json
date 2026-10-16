@@ -1,0 +1,76 @@
+{
+  "lean": {
+    "install": [
+      "superpowers",
+      "ponytail",
+      "caveman",
+      "pr-review-toolkit",
+      "claude-md-management",
+      "security-guidance",
+      "context7",
+      "playwright",
+      "github",
+      "serena"
+    ],
+    "active": [
+      "ponytail",
+      "caveman",
+      "claude-md-management",
+      "security-guidance"
+    ]
+  },
+  "balanced": {
+    "install": [
+      "superpowers",
+      "ponytail",
+      "caveman",
+      "pr-review-toolkit",
+      "claude-md-management",
+      "security-guidance",
+      "context7",
+      "playwright",
+      "github",
+      "serena"
+    ],
+    "active": [
+      "superpowers",
+      "pr-review-toolkit",
+      "claude-md-management",
+      "security-guidance",
+      "context7",
+      "playwright"
+    ]
+  },
+  "full": {
+    "install": [
+      "superpowers",
+      "feature-dev",
+      "pr-review-toolkit",
+      "code-review",
+      "claude-md-management",
+      "hookify",
+      "security-guidance",
+      "claude-security",
+      "frontend-design",
+      "commit-commands",
+      "context7",
+      "playwright",
+      "github",
+      "serena",
+      "typescript-lsp",
+      "pyright-lsp",
+      "jdtls-lsp",
+      "ralph-loop",
+      "ponytail",
+      "caveman"
+    ],
+    "active": [
+      "superpowers",
+      "pr-review-toolkit",
+      "claude-md-management",
+      "security-guidance",
+      "context7",
+      "playwright"
+    ]
+  }
+}

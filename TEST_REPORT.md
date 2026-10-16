@@ -1,0 +1,9 @@
+# Validation report — 2026-10-16
+
+Version0.2.0. `python3 -m unittest discover -s tests -v`: **32 tests passed** (14 Hermes launcher tests and18 Claude integration tests). `python3 -m py_compile council.py fellowship.py`: passed.
+
+The tests execute fake Hermes/Claude CLI processes and real deterministic gate subprocesses. Coverage includes literal stdin/no shell interpolation, missing or failed terminal results, nonzero process exits, turn-limit outcomes, permission-denial results, timeouts, private receipts, competing-writer locks, existing-profile preservation, modified agent preservation, explicit model routing, context down-sizing from a mocked Ollama response, absent cloud secrets, invalid endpoints, empty/invalid gates, failed gates, unverified no-gate outcomes, plan-only behavior, temporary secret-file removal and compaction checkpoint handling. The catalog check verifies20 unique entries with40-character commit pins and project-local plugin installation commands.
+
+**Not exercised here:** a live Hermes distribution installation, a live Claude session, Claude's own marketplace validator, actual download/activation of all20 plugins, tool-calling with Qwen/GLM, LM Studio/Ollama/Z.AI authentication, hardware memory/latency, browser integration tests of a user application, or production DevOps actions. Neither Hermes nor Claude is installed in this execution environment. Source review and mock contract tests do not substitute for these live checks.
+
+The target installer runs Claude's marketplace validator before installation and stops on errors. Run doctor and a tiny read-only plan after installation, then a reversible coding task with your application's gates. Test the actual chosen model, quantization, context and active plugins. Do not infer production readiness or benchmark superiority from this report.

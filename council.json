@@ -1,0 +1,69 @@
+{
+  "name": "Hermes Fellowship",
+  "version": "0.2.0",
+  "researched_at": "2026-10-16",
+  "coordinator": "gandalf",
+  "agents": {
+    "gandalf": {
+      "role": "Coordinator: scope, route, budget, integrate, verify",
+      "preferred_tools": [
+        "Hermes delegation",
+        "Fellowship profile launcher"
+      ]
+    },
+    "samwise": {
+      "role": "Daily assistant: inbox, calendar, documents, follow-ups",
+      "preferred_tools": [
+        "Hermes productivity skills",
+        "Google Workspace CLI",
+        "Himalaya"
+      ]
+    },
+    "dragonborn": {
+      "role": "Software engineer: implement, debug, refactor, instrument games",
+      "preferred_tools": [
+        "Claude Code",
+        "Fellowship Claude launcher",
+        "Context7",
+        "Serena"
+      ]
+    },
+    "sauron": {
+      "role": "SRE investigator: observability, incidents, capacity, root cause",
+      "preferred_tools": [
+        "Claude Code specialist subagents",
+        "HolmesGPT",
+        "Grafana MCP",
+        "Kubernetes MCP",
+        "SSH read-only account"
+      ]
+    },
+    "gimli": {
+      "role": "Platform engineer: Docker, CI/CD, configuration and infrastructure",
+      "preferred_tools": [
+        "Claude Code specialist subagents",
+        "Ansible",
+        "OpenTofu",
+        "Docker",
+        "GitHub Actions"
+      ]
+    },
+    "galadriel": {
+      "role": "Independent reviewer: correctness, regression tests, security",
+      "preferred_tools": [
+        "Claude Code specialist subagents",
+        "Playwright",
+        "Trivy",
+        "repository test runners"
+      ]
+    },
+    "legolas": {
+      "role": "Research scout: primary sources, dependencies, documentation",
+      "preferred_tools": [
+        "Hermes web tools",
+        "Context7",
+        "GitHub"
+      ]
+    }
+  }
+}

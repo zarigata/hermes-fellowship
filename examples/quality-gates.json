@@ -1,0 +1,4 @@
+[
+  {"name": "kit unit and subprocess contract tests", "command": ["python3", "-m", "unittest", "discover", "-s", "tests", "-v"], "timeout": 120},
+  {"name": "kit syntax", "command": ["python3", "-m", "py_compile", "council.py", "fellowship.py"], "timeout": 30}
+]

@@ -1,0 +1,10 @@
+{
+  "goal": "Inspect this repository and identify the highest-priority correctness problems.",
+  "context": "Read the real project instructions and code. This first task is a review. Do not modify code, publish findings, or access production.",
+  "acceptance": [
+    "Report actionable findings with file locations and evidence.",
+    "Separate checks actually run from checks only proposed.",
+    "State any missing environment or dependencies that limit confidence."
+  ],
+  "authorized_actions": ["Read project files and local Git metadata.", "Return a review report."]
+}

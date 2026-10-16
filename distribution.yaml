@@ -1,0 +1,19 @@
+name: fellowship-gandalf
+version: 0.2.0
+description: Hermes coordinator with Claude Code specialists and local-model presets
+author: Hermes Fellowship
+distribution_owned:
+  - SOUL.md
+  - distribution.yaml
+  - COMMON.md
+  - INSTALL.md
+  - README.md
+  - council.py
+  - council.json
+  - fellowship.py
+  - agents/
+  - claude/
+  - presets/
+  - docs/
+  - .claude-plugin/
+  - examples/
