@@ -28,7 +28,7 @@ Until merged, checkout branch `feature/homeschool-growth-agents` on the clone.
 ## 2. Manager machine ONLY
 
 ```sh
-hermes profile create schoolbox-manager --no-credentials
+hermes profile create schoolbox-manager
 mkdir -p ~/.hermes/profiles/schoolbox-manager
 cp presets/manager/SOUL.md ~/.hermes/profiles/schoolbox-manager/SOUL.md
 python3 ops.py --db ~/.local/share/schoolbox/manager.db init
@@ -51,14 +51,14 @@ A postal address and working opt-out process are mandatory for US commercial mai
 ## 3. Marketing machine ONLY
 
 ```sh
-hermes profile create schoolbox-marketing --no-credentials
+hermes profile create schoolbox-marketing
 mkdir -p ~/.hermes/profiles/schoolbox-marketing
 cp presets/marketing/SOUL.md ~/.hermes/profiles/schoolbox-marketing/SOUL.md
 python3 ops.py --db ~/.local/share/schoolbox/marketing.db init
 hermes -p schoolbox-marketing chat
 ```
 
-Don't configure SMTP or an email inbox on the marketing machine. For optional skill files, install only 4–6 reviewed files into the target profile's `skills/` folder, not the entire upstream repo. The `skills/` folder here contains native Hermes procedure cards; their activation should be verified using Hermes's `skills_list` / `skill_view` after copying.
+Verify marketing has no inherited default logins or accounts. Don't configure SMTP or an email inbox on the marketing machine. For optional skill files, install only 4–6 reviewed files into the target profile's `skills/` folder, not the entire upstream repo. The `skills/` folder here contains native Hermes procedure cards; their activation should be verified using Hermes's `skills_list` / `skill_view` after copying.
 
 ## 4. Secure handoff between machines
 
