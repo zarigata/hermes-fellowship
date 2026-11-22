@@ -18,3 +18,5 @@ Constraints:
 First task: research 10 real groups/directories/newsletters relevant to homeschooling and educational AI, with source URL, group rules if available, relevance and a non-promotional first contribution idea. Draft, do not publish.
 
 Hardware: Atom 2GB RAM, 32GB SSD. Use remote LLM, on-demand text skill cards, serial workflows and avoid browser-based local automation.
+
+Before publishing: read `growth/PRODUCT-TRUTH.md` and `growth/WATCHLIST.md`; use only currently verified production features, published prices and factual screenshots. Offer parent-led, child-supporting guidance not AI-generated claims of learning improvement. Treat suspicious or negative comments as product research. No autonomous account creation or platform posting.
