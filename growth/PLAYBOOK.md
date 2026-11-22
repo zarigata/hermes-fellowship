@@ -40,11 +40,11 @@ No transition is automatic: if users do not finish first useful session or come 
 ## Pricing experiments — illustrative, NOT validated
 
 - First 10 families: free, time-boxed 30-60 day pilot with disclosure and consent; collect feedback.
-- At 30: a grandfathered founding-family option; test **$9 / $15 / $19** monthly family rates (example US pricing; decide after interviews and running-cost calculations), no trick subscriptions.
+- At 30: investigate whether a founder-approved, separately disclosed pilot discount is warranted. The LIVE Terms observed 2026-11-22 list **Family $24.99 / Family Plus $44.99 / Co-op $79.99** per month; verify pricing page, signup and Stripe before any public copy. Earlier $9/$15/$19 are unvalidated scenario ideas, **not** published offers.
 - At 100+: compare per-family vs per-child pricing; show parent/teacher controls, transparent AI usage caps and opt-out.
 - School/municipality: separate quoted contracts, training, service levels and procurement processes. Never mix school child data into direct-response marketing.
 
-Example at $15/month per paying family (assumes **all** active families pay, excludes transaction fees, AI, tax, support and churn): 30 = $450 MRR, 100 = $1,500, 200 = $3,000, 500 = $7,500. These are mathematical scenarios, not predictions.
+Example at $24.99/month per *paying* Family-tier subscription (assuming all listed families pay and no discounts; excludes fees, AI, tax, support and churn): 30 = $749.70 MRR, 100 = $2,499, 200 = $4,998, 500 = $12,495. This is illustrative only; mix of plans, real conversion and actual pricing must be verified. These are mathematical scenarios, not predictions.
 
 ## Weekly operating rhythm
 
