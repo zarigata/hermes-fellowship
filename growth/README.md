@@ -54,3 +54,11 @@ Install only the tools actually used; 30 tools in TOOLBOX.md are a **curated men
 5. Tests pass and disk/RAM usage is measured **on the actual Atom PC** before enabling scheduled activity.
 
 The marketing pack is additive to the original engineering Fellowship; do not run its Claude Code swarm on this hardware.
+
+## Product-first growth and repository linkage (Nov 22 2026)
+
+Primary application: https://github.com/zarigata/Homeschooling ; public site: https://home.feverducation.us/. A separate draft PR in the private application repo contains a **documentation-only** launch readiness review with legal blockers, parent experience QA and educational correctness tests. **Do not advertise unverified features.**
+
+Start by reading **[PRODUCT-TRUTH.md](PRODUCT-TRUTH.md)**, **[WATCHLIST.md](WATCHLIST.md)**, **[FORMS.md](FORMS.md)** and **[VENTURE-SCALE.md](VENTURE-SCALE.md)**. They define approved product facts, organizations and public websites to review, opt-in form requirements and stage-gated valuation math. A public Terms legal-entity placeholder is a blocker pending founder-verified details.
+
+Current advertised plan amounts must be reconciled with Terms and checkout before promotion. Earlier sample prices in PLAYBOOK were hypothetical only. This pack does **not** install a monitoring service, post on social platforms, or implement a form merely by providing the documents.
