@@ -1,0 +1,16 @@
+# Runtime and private data — never commit
+private/
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+auth.json
+*.token
+*.pem
+__pycache__/
+*.pyc
+.cache/
+build/
+dist/
+backups/
